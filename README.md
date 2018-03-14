@@ -25,16 +25,20 @@ Cada alumna tendrá que hacer un `fork` del repositorio para duplicarlo en su us
 Pero claro, este repositorio se actualizará con nuevos ejercicios así que seguiremos los siguientes pasos para poder actualizarnos la nueva versión:
 1. Añadiremos el repositiorio original como un nuevo repo remoto, además de origin, lo llamaremos **upstream**. En la carpeta de nuestro repo clonado:
 ```
-git add remote upstream https://github.com/Adalab/clarke-ejercicios-cortos-formacion-continua.git
+git remote add upstream https://github.com/Adalab/clarke-ejercicios-cortos-formacion-continua.git
 ```
 2. De esta manera podremos lanzar un `git pull` a **upstream** (en lugar de a origin) y tener los últimos cambios del repositorio original:
 ```
 git pull upstream master
 ```
 
+
+> **Otra solución** es hacer un fork del repo de ejercicios, clonar los dos en el ordenador y, cuando haya nuevos ejercicios, actualizar el repo original y copiar las carpetas nuevas a nuestro repo forkeado
+
 ### Índice de Ejercicios
 - [ ] E1: Firma de email
 - [ ] E2: Icono de Instagram en CSS
+- [ ] E3: Una historia de grids
 
 ## Notas finales
 Estos ejercicios son totalmente voluntarios y hay reservado un espacio para dudas como viene explicado en la presentación de la [Formación continua, en el Gtibook del curso](https://adalab.gitbooks.io/curso-programacion-front-end-2018/content/formacion-continua/0_presentacion.html)
